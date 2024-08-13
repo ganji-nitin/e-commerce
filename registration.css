@@ -1,0 +1,71 @@
+*{
+    margin: 0;box-sizing: border-box;
+}
+main{
+    background-image: url("./Assests/extensive-ecommerce-banner.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#form{
+    height: 450px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    box-shadow: rgba(245, 222, 179, 0.25) 0px 54px 55px, rgba(245, 222, 179, 0.12) 0px -12px 30px, rgba(245, 222, 179, 0.12) 0px 4px 6px, rgba(245, 222, 179, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#form h1{
+    font-size: 30px;
+}
+#form #welcome{
+    font-size: 18px;
+}
+#form form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
+#form .input{
+    height: 40px;
+    width: 200px;
+    padding-left: 10px;
+    border: none;
+    border-bottom: 2px solid rgb(245, 222, 179);
+    outline: none;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0);
+    color: wheat;
+}
+#form .input::placeholder{
+    color: rgba(255,255,255,0.5);
+}
+div{
+    position: relative;
+    left: 8.5px;
+}
+#eye{
+    position: relative;
+    right: 20px;
+}
+#form #signin{
+    width: 100px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
